@@ -1,5 +1,5 @@
-import classes from './Test.module.scss';
+import styles from './Test.module.scss';
 
 export const Test = () => {
-    return <button className={classes.test}>Test</button>
+    return <button className={styles.test}>Test</button>
 }
