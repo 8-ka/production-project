@@ -5,13 +5,14 @@ import Button, { ThemeButton } from 'shared/ui/Button/Button';
 import styles from './ThemeSwitcher.module.scss'
 
 type ThemeSwitcherProps = {
-    className?: string;
+  className?: string;
 }
 
 const ThemeSwitcher = ({ className }: ThemeSwitcherProps) => {
-    const { toggleTheme } = useTheme();
+  const { toggleTheme } = useTheme();
+
   return (
-    <Button className={classNames(styles.button, {}, [className])} onClick={toggleTheme} theme={ThemeButton.CLEAR}><ThemeIcon className={styles['theme-icon']}/></Button>
+    <Button className={classNames(styles.button, {}, [className])} onClick={toggleTheme} theme={ThemeButton.CLEAR}><ThemeIcon className={styles['theme-icon']} /></Button>
   )
 }
 
