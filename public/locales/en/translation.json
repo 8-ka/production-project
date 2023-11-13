@@ -1,5 +1,6 @@
 {
     "main_page": "Main page",
     "about_page": "About us",
-    "language": "Русский"
+    "language": "Ru",
+    "not_found_page": "Page not found"
 }
